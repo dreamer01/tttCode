@@ -1,0 +1,40 @@
+
+.App{
+
+}
+
+.wrapper{
+  background: black;
+  width: 25%;  
+  padding: 1em;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.App-title{
+  color: aliceblue;
+}
+
+.container > input{
+  border-radius: 5px;
+  margin: 5px;
+  border: grey solid 1px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+table {
+  color: aliceblue;
+  font-family: sans-serif;
+  margin: auto;
+  border-collapse: collapse;
+  width: 76%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 50%;
+}
