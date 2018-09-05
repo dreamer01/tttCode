@@ -14,7 +14,7 @@ class App extends Component {
   onSubmit = (e) =>{
     e.preventDefault();
     console.log("I am here..")
-    fetch('http://localhost:5000/input',{
+    fetch('/input',{
       method: "POST",
       headers:{
         "Content-Type" : "application/json"
