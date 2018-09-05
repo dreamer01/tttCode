@@ -1,7 +1,7 @@
-## tttCode
+# tttCode
 JS code for TTT job application.
 
-# Demo : https://tttcode.herokuapp.com/
+## Demo : https://tttcode.herokuapp.com/
 
 Dependencies : 
 
