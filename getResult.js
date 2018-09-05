@@ -44,13 +44,13 @@ function sortWords (wordsMap) {
   var result = [];
   result = Object.keys(wordsMap).map( key => {
     return {
-      name: key,
-      total: wordsMap[key]
+      word: key,
+      count: wordsMap[key]
     };
   });
 
   result.sort( (a, b) => {
-    return b.total - a.total;
+    return b.count - a.count;
   });
 
   return result;

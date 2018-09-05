@@ -40,7 +40,7 @@ class App extends Component {
           <table >
             <tbody>
               { 
-                this.state.words.map( obj => <tr key={obj.name}><td> {obj.name} </td><td> {obj.total} </td></tr>)
+                this.state.words.map( obj => <tr key={obj.word}><td> {obj.word} </td><td> {obj.count} </td></tr>)
               }
             </tbody>
           </table> 

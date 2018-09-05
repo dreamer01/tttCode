@@ -1,0 +1,33 @@
+{
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "TTT test app.",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1","client-install": "npm install --prefix client",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamer01/tttCode.git"
+  },
+  "keywords": [
+    "TTT",
+    "Heroku",
+    "NodeJs"
+  ],
+  "author": "Pushpendra Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamer01/tttCode/issues"
+  },
+  "homepage": "https://github.com/dreamer01/tttCode#readme"
+}
