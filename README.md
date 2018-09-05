@@ -1,4 +1,4 @@
-# tttCode
+## tttCode
 JS code for TTT job application.
 
 # Demo : https://tttcode.herokuapp.com/
